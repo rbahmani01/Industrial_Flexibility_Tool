@@ -1,7 +1,7 @@
 # Flextool LP Service
 
 A Flask-based microservice that exposes a **linear programming optimization model** for flexible loads.  
-It is a **simplified version of [FlexTool](https://flextool.synergie-projekt.de/start)**, designed as a showcase of coding, optimization, and documentation.
+It is a **simplified version of [FlexTool](https://flextool.synergie-projekt.de/start)**, designed as a showcase of coding, optimization, and documentation. The optimization model is published in [Energy Proceedings landing page](https://www.energy-proceedings.org/energy-flexibility-scheduling-optimization-considering-aggregated-and-non-aggregated-industrial-electrical-loads/).  
 
 This repository is a **showcase of coding, optimization, and documentation**:  
 - 🚀 Run optimizations via REST API  
