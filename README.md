@@ -1,4 +1,4 @@
-# Flex-tool Optimization Service
+# Flex-Tool Optimization Service
 
 A Flask-based microservice that exposes a **linear programming optimization model** for flexible loads.  
 It is a **simplified version of [Flex-Tool](https://flextool.synergie-projekt.de/start)**, designed as a showcase of coding, optimization, and documentation.  
