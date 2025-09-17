@@ -136,7 +136,6 @@ We used **PuLP** because it offers a clean Python API, works with multiple solve
 
 PuLP also has some drawbacks:  
 - Constraints often require nested loops, which makes the code look more verbose than in frameworks like Pyomo or Gurobi.  
-- Variables are string-based (e.g., `y_var_1_2_3`), so post-processing can look less elegant.  
 - CBC, the default solver, is slower for very large problems compared to commercial solvers.  
 
 Even with these trade-offs, PuLP was the most practical choice for balancing speed, clarity, and flexibility.
