@@ -113,7 +113,7 @@ See [`examples/sample_payload.json`](examples/sample_payload.json) for a full wo
 - **Objective**
   - Maximize cost savings:  
 
-    ![Objective Function](images/objective_formula.png)
+    ![Objective Function](Images/objective_formula.png)
 
 - **Constraints**
   - Min/max usage per flexibility  
