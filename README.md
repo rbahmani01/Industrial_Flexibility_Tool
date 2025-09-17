@@ -66,7 +66,7 @@ Example response (truncated):
 ```json
 {
   "result": {
-    "Day_ahead_prices": [...],
+    "Day_ahead_prices": [],
     "activated_measure_costs_per_efdm": [ -2753.8, 479.72 ],
     "activated_measure_costs_tuples": { "(1, 1)": -2753.8, "(2, 1)": 479.72 },
     "activated_working_measure_costs_tuples": 0.03,
