@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from flextool_lp.optimization import calculation
+from flextool_lp.validation import reformat_payload
 
 
 def test_calculation_runs_with_sample_payload():
