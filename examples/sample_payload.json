@@ -41,10 +41,6 @@
     "24": 70.6
   },
   "optimization_duration_intervals_num": 24,
-  "measures_tuple": {
-    "(1,1)": 0,
-    "(2,1)": 1
-  },
   "time_interval_duration_hours": 1.0,
   "start_cost": {
     "(1,1)": 0.00,

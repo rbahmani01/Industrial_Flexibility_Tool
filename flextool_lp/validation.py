@@ -11,7 +11,6 @@ def convert_keys(d):
 def reformat_payload(data):
     # Convert all sections
     data["electricity_price"] = {int(k): v for k, v in data["electricity_price"].items()}
-    data["measures_tuple"] = convert_keys(data["measures_tuple"])
     data["start_cost"] = convert_keys(data["start_cost"])
     data["power_for_measure"] = convert_keys(data["power_for_measure"])
     data["time_length_of_measure"] = convert_keys(data["time_length_of_measure"])
