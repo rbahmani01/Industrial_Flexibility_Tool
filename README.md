@@ -142,10 +142,6 @@ Even with these trade-offs, PuLP was the most practical choice for balancing spe
 
 This service is based on the model described in the paper **“Energy flexibility scheduling optimization considering aggregated and non-aggregated industrial electrical loads.”**
 
-- **Authors:** Ramin Bahmani, Christine van Stiphoudt, Mohammad Ansarin, Gilbert Fridgen  
-- **Venue:** Energy Proceedings (ICAE 2022), **Volume 29**  
-- **DOI:** 10.46855/energy-proceedings-10448
-
 **Links:**
 - [Energy Proceedings landing page](https://www.energy-proceedings.org/energy-flexibility-scheduling-optimization-considering-aggregated-and-non-aggregated-industrial-electrical-loads/)  
 
