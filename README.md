@@ -108,7 +108,7 @@ See [`examples/sample_payload.json`](examples/sample_payload.json) for a full wo
 
 ## How it Works
 
-- **Decision vars**
+- **Decision variables**
   - `y[f,m,t] ∈ {0,1}` → measure `m` starts on `f` at time `t`  
   - `x[f,t] ∈ {0,1}` → any measure is active on `f` at time `t`  
 
