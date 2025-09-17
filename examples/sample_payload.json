@@ -45,12 +45,6 @@
     "(1,1)": 0,
     "(2,1)": 1
   },
-  "input_data_id": "dd63c8c4-bb4c-4eff-899f-93b0504fdfc7",
-  "flexibleLoadId": [
-    "a151b3a8-c1df-41e3-8661-a919eb69f3dd",
-    "22069039-32ab-449e-9442-9e430d0aeeff"
-  ],
-  "number_of_efdms_after_adding_different_hold_durations": 2,
   "time_interval_duration_hours": 1.0,
   "start_cost": {
     "(1,1)": 0.00,
