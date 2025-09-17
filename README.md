@@ -67,10 +67,7 @@ Example response (truncated):
 {
   "result": {
     "Day_ahead_prices": [],
-    "activated_measure_costs_per_efdm": [ -2753.8, 479.72 ],
-    "activated_measure_costs_tuples": { "(1, 1)": -2753.8, "(2, 1)": 479.72 },
-    "activated_working_measure_costs_tuples": 0.03,
-    "ativated_measure_working_cost_keys_as_list": [ 0.02, 0.01],
+    "activated_measures":[]
     "totalEnergyConsumption": -24.0,
     "totalSavings": 2.24408
   }
