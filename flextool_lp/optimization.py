@@ -1,10 +1,6 @@
 import pulp
 from pulp import LpProblem, LpMaximize, LpStatus, PULP_CBC_CMD
 
-
-def stringify_keys(d):
-    return {str(k): v for k, v in d.items()}
-
 def calculation(parameters):
     """
     Calculate the optimal activation of flexible loads using linear programming to maximize cost savings while
