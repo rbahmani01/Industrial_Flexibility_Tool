@@ -109,8 +109,8 @@ See [`examples/sample_payload.json`](examples/sample_payload.json) for a full wo
 ## How it Works
 
 - **Decision variables**
-  - `y[f,m,t] ∈ {0,1}` → measure `m` starts on `f` at time `t`  
-  - `x[f,t] ∈ {0,1}` → any measure is active on `f` at time `t`  
+  - `y[f,m,t] ∈ {0,1}` → measure `m` of load `f` is actived on time `t`  
+  - `x[f,t] ∈ {0,1}` →  load `f` is active on time `t`   
 
 - **Objective**
   - Maximize cost savings:  
