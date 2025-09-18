@@ -100,7 +100,7 @@ See [`examples/sample_payload.json`](examples/sample_payload.json) for a full wo
 | `regeneration_time[(f,m)]` | int | Cooldown intervals after completion |
 | `validity_in_time_format[f][t]` | 0/1 | Whether activation allowed |
 | `power_for_measure[(f,m,i)]` | float | Power draw at step `i` of measure |
-| `max_lenght_of_measure_among_all_efdms` | list[int] | indices fo max step among measures  |
+| `max_length_of_measure_among_all_efdms` | list[int] | indices fo max step among measures  |
 | `measures_tuple[(f,m)]` | int | Flattened index for reporting |
 | `dependencies` | lists of tuples | Optional temporal logic (implies/excludes) |
 
@@ -109,8 +109,8 @@ See [`examples/sample_payload.json`](examples/sample_payload.json) for a full wo
 ## How it Works
 
 - **Decision variables**
-  - `y[f,m,t] ∈ {0,1}` → measure `m` of load `f` is actived on time `t`  
-  - `x[f,t] ∈ {0,1}` →  load `f` is active on time `t`   
+  - `y[f,m,t] ∈ {0,1}` → measure `m` of load `f` is activated on time `t`  
+  - `x[f,t] ∈ {0,1}` →  load `f` is activated on time `t`   
 
 - **Objective**
   - Maximize cost savings:  
